@@ -1,0 +1,46 @@
+{
+  "name": "graphql_serverless",
+  "version": "1.0.0",
+  "description": "readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r esm --inspect index.local.js"
+  },
+  "keywords": [],
+  "author": "ahmad-umar",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-lambda": "^2.6.3",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^14.3.1",
+    "graphql-tools": "^4.0.4",
+    "serverless": "^1.45.1",
+    "serverless-http": "^2.0.2",
+    "serverless-mysql": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "aws-sdk": "^2.476.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "env-cmd": "^9.0.3",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "imports-loader": "^0.8.0",
+    "jest": "^24.8.0",
+    "serverless-offline": "^5.3.3",
+    "serverless-webpack": "^5.3.1",
+    "webpack": "^4.34.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

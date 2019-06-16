@@ -1,0 +1,40 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+.env
+.DS_STORE
+
+.idea/
+log
+dist
+package-lock.json
+
+.vscode
+.env
+env.dev.json
+env.staging.json
+env.*.json
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+.eslintrc.json
+
+# npm
+package-lock.json
+yarn.lock
